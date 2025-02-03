@@ -1,0 +1,28 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#services i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.carousel-item p {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.carousel-item small {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+footer a {
+  margin: 0 10px;
+}

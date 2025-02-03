@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #ffecd6;
+  color: #333;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.hero button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.menu-categories {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.menu-categories button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-categories button:hover {
+  background-color: #e65a50;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.menu-item h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.menu-item p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.menu-item .price {
+  color: #ff6f61;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu-item {
+    width: 100%;
+  }
+}

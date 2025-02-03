@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.add-lead,
+.lead-list {
+  margin: 20px auto;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-lead form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-lead input,
+.add-lead button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-lead button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-lead button:hover {
+  background-color: #0056b3;
+}
+
+.lead {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.lead h3 {
+  margin: 0 0 5px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.call {
+  background-color: #28a745;
+  color: white;
+}
+button.email {
+  background-color: #007bff;
+  color: white;
+}
+button.sold {
+  background-color: #ffc107;
+  color: white;
+}
+button.not-sold {
+  background-color: #dc3545;
+  color: white;
+}
+button.remove {
+  background-color: #6c757d;
+  color: white;
+}

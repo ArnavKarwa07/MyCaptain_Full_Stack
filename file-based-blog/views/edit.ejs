@@ -1,0 +1,13 @@
+<body>
+  <div class="container">
+    <h1>Edit Post</h1>
+    <form action="/update/<%= title %>" method="POST">
+      <input type="text" name="title" value="<%= title %>" required>
+      <textarea name="content" required><%= content %></textarea>
+      <div class="action-buttons">
+        <button type="submit">Update Post</button>
+        <a href="/" class="back-link">Cancel</a>
+      </div>
+    </form>
+  </div>
+</body>
